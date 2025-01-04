@@ -28,7 +28,7 @@ const Home = () => {
   };
 
   return (
-    <div className="px-8 mt-20">
+    <section className="px-8 mt-15">
       <div className="dark:text-white px-11 py-6">
         <div className="flex flex-col gap-3 justify-center items-center">
           <div className="flex flex-col w-full gap-2 mb-1">
@@ -71,7 +71,7 @@ const Home = () => {
         </div>
       </div>
       <Result result={result} />
-    </div>
+    </section>
   );
 };
 

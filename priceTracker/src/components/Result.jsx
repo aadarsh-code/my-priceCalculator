@@ -1,6 +1,6 @@
 const Result = ({ result = "50" }) => {
   return (
-    <div className="dark:text-white mt-11">
+    <section className="dark:text-white mt-11">
       {result ? (
         <div className="text-center">
           <div className="font-semibold  text-2xl">{`Your total price is`}</div>
@@ -9,7 +9,7 @@ const Result = ({ result = "50" }) => {
       ) : (
         <div>Type something to get your price.</div>
       )}
-    </div>
+    </section>
   );
 };
 
